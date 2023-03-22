@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #d8d2c9;
+    padding: 200px 0px 0px 0px;
+}  
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.image{
+    width: 420px;
+    height: 550px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.cart{
+    width: auto;
+    height: auto;
+
+}
+
+.product-description{
+    background-color: white;
+    padding: 15px 40px 10px 25px;
+    font-size: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+
+h1{
+    font-family: arial,Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: solid;
+    letter-spacing: 1ex;
+    text-transform: uppercase;
+    color: rgb(163, 158, 158);
+    line-height: 1px;
+    margin-top: 25px;
+
+}
+
+
+h2{
+    font-size: 38px;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 0px;
+}
+
+
+.article{
+    color: rgb(163, 158, 158);
+    line-height: 27px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+    text-decoration: solid;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.new-price{
+    font-size: 45px;
+    color: hwb(157 10% 44%);
+    font-family: 'Fraunces', serif;
+    line-height: 70px;
+
+}
+
+.old-price{
+    font-size: 16px;
+    color: rgb(132, 130, 130);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    
+}
+
+
+button {
+    background-color: hwb(157 10% 44%);
+    border-color: hwb(157 10% 44%);
+    border-style: none;
+    color: white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: hwb(157 10% 44%);
+    border-style: solid;
+    border-radius: 8px;
+    background-color: hwb(157 10% 44%);
+    margin: 20px 0px 0px 0px;
+    padding: 20px 90px 20px 85px;
+    line-height: 0px;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+
+
+
